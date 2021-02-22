@@ -22,7 +22,7 @@ import spacy
 import json
 import normalisierung
 
-nlp = spacy.load('de_core_news_lg')
+nlp = spacy.load('de_dep_news_trf')
 
 disable_pipeline = False
 filter_exlude_zeichen = True

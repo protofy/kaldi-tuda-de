@@ -34,7 +34,7 @@ def load_lowercase_stopwords(filename='local/stopwords.de.txt'):
     return stopwords
 
 def process(text_kaldi_file):
-    nlp = spacy.load('de_core_news_lg')
+    nlp = spacy.load('de_dep_news_trf')
     texts = []
     normalize_cache = {}
     i=0
